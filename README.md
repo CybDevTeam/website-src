@@ -1,2 +1,2 @@
 <h1 align=center>CybDevTeam</h1>
-https://cybdevteam.github.io/website-src/
+<p align=center>https://cybdevteam.github.io/website-src/</p>
