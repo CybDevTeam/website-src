@@ -20,10 +20,6 @@ h2 {
     margin: 0;
     letter-spacing: -.025em;
 }
-.container {
-    margin: 20px;
-    padding: 20px;
-}
 a {
     text-decoration: none;
     transition: 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -44,6 +40,8 @@ p {
     border: 2px solid #000;
     border-radius: 10px;
     width:auto;
+    margin: 20px;
+    padding: 20px;
 }
 
 
