@@ -82,6 +82,7 @@ button:hover {
 button:active {
     background: rgba(255, 255, 255, 0.176);
     border-color: #ccc;
+    scale: 0.95;
 }
 .container {
     border-radius: 8px;
@@ -91,6 +92,12 @@ button:active {
     box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
     backdrop-filter: blur(20px);
     background-color: rgba(41, 41, 41, 0.227);
+    transition-duration: 0.2s;
+}
+.container:hover {
+    scale: 1.02;
+    transition-duration: 0.2s;
+    box-shadow: 10px 20px 20px 20px rgba(0,0,0,0.2);
 }
 .container-cont {
     padding: 20px;
@@ -130,6 +137,7 @@ ol {
     transition-duration: 0.2s;
   }
   .social-icon:hover {
+    display: inline;
     color: #ccc;
     transition-duration: 0.2s;
   }
