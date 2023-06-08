@@ -63,27 +63,34 @@ p {
     font-family: 'Wix Madefor Display', sans-serif;
 }
 button {
-    padding: 0.8em 1.6em;
+    padding: 1em 2em;
     border: 2px solid #fff;
-    background: transparent;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
     color: #fff;
+    margin-right: 5px;
+    margin-left: 5px;
     cursor: pointer;
+    font-family: 'Manrope', sans-serif;
     transition-duration: 0.1s;
 }
 button:hover {
-    background: #fff;
-    color: #000;
+    background: rgba(255, 255, 255, 0.118);
     transition-duration: 0.1s;
 }
 button:active {
-    background: #ccc;
+    background: rgba(255, 255, 255, 0.176);
     border-color: #ccc;
 }
 .container {
-    border-radius: 10px;
+    border-radius: 8px;
     width: 49.5%; 
     background: #111;
     margin: 5px 0;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    backdrop-filter: blur(20px);
+    background-color: rgba(41, 41, 41, 0.227);
 }
 .container-cont {
     padding: 20px;
