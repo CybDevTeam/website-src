@@ -54,6 +54,9 @@ h1 {
     letter-spacing: -.025em;
     color: #fff;
 }
+.links {
+    max-width: 50%;
+}
 .tcent {
     text-align: center;
 }
