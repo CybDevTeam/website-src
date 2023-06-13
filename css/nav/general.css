@@ -1,0 +1,66 @@
+/* подключение шрифтов Manrope и Wix Madefor Display */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.flex { display: flex; }
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+/* навбар */
+.nav {
+    display: flex;
+    background: #333;
+    align-items: center;
+    padding: 1em;
+    justify-content: center;
+}
+.nav a:hover {
+    background: #444;
+}
+.nav-mobile {
+    display: none;
+}
+.jleft {
+    justify-content: left !important;
+    display: flex;
+}
+.jright {
+    justify-content: right !important;
+}
+/* центрирование текста с id tcent */
+#tcent {
+    text-align: center;
+}
+.logo, .logo img {
+    background: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.logo::after {
+    content: '';
+}
+.mlogo {
+    display: none;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}

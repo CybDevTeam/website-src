@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+body {
+    font-family: 'Manrope', 'Wix Madefor Display', Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,48,101,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+}
+.half {
+    width: 50% !important;
+}
+/*nav {
+    margin: 0 !important;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    width: 100% !important;
+    backdrop-filter: blur(20px);
+    background-color: rgba(41, 41, 41, 0.227);
+}
+.nav-cont {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.5em;
+}
+.nav-cont a {
+    text-align: right;
+    border: none;
+    padding: 5px;
+}*/
+.full {
+    width: 100% !important;
+}
+.left {
+    float: left;
+}
+.tleft {
+    text-align: left;
+}
+.tright {
+    text-align: right;
+}
+.right {
+    float: right;
+}
+h1 {
+    line-height: 4rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -.025em;
+    color: #fff;
+}
+.tcent {
+    text-align: center;
+}
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -.025em;
+    color: #fff;
+}
+h1, h2, h3 {
+    font-family: 'Manrope', sans-serif;
+    line-break: anywhere;
+}
+a {
+    text-decoration: none;
+    transition: 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: normal;
+    color: #fff !important;
+    font-family: 'Wix Madefor Display', Arial, Helvetica, sans-serif;
+}
+footer a {
+    margin: 0;
+}
+.cc-a {
+    border: 2px solid #fff;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: normal;
+    color: #fff !important;
+}
+a::after {
+    font-family: "Font Awesome 6 Free";
+    content: ' \f08e';
+    font-weight: 900;   
+}
+p {
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+button {
+    padding: 1em 2em;
+    border: 2px solid #fff;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    color: #fff;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    transition-duration: 0.1s;
+}
+button:hover, a:hover {
+    background: rgba(255, 255, 255, 0.118);
+    transition-duration: 0.1s;
+}
+button:active, a:active {
+    background: rgba(255, 255, 255, 0.176);
+    border-color: #ccc;
+    scale: 0.95;
+}
+.container {
+    border-radius: 8px;
+    width: 49.5%; 
+    margin: 5px 0;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    background: rgba(41, 41, 41, 0.227);
+    transition-duration: 0.2s;
+}
+.container:hover {
+    scale: 1.02;
+    transition-duration: 0.2s;
+    box-shadow: 10px 20px 20px 20px rgba(0,0,0,0.2);
+}
+.container-cont {
+    padding: 20px;
+}
+.container-cont p {
+    margin: 0;
+}
+.container-cont img {
+    margin: 20px 0 0;
+}
+.footer {
+    margin: 0;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer a {
+    margin: 0;
+}

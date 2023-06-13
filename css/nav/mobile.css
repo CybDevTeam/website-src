@@ -1,0 +1,28 @@
+@media screen and (max-width: 1100px) {
+    .gh-comments {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .nav {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .mlogo {
+        display: flex;
+    }
+    .nav-mobile {
+        display: block;
+    }
+    .menu-content {
+        /*display: none;*/
+        display: flex;
+        flex-direction: column;
+    }
+}
+.open-menu {
+    color: #fff;
+    font-size: 36px;
+}

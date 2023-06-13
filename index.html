@@ -9,17 +9,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="general.css">
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/nav/nav.css">
+    <link rel="stylesheet" href="css/nav/general.css">
+    <link rel="stylesheet" href="css/nav/mobile.css">
+    <link rel="stylesheet" href="css/nav/socialicons.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-cont">
-            <h2 class="tleft">CybDevTeam</h2>
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://github.com/CybDevTeam/website-src" target="_blank">Репозиторий сайта</a>
-        </div>
-    </nav>
+    <nav class="navbar">
+   
+       <!-- NAVIGATION MENU -->
+       <ul class="nav-links">
+   
+         <!-- USING CHECKBOX HACK -->
+         <input type="checkbox" id="checkbox_toggle" />
+         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+   
+         <!-- NAVIGATION MENUS -->
+         <div class="menu">
+            <a href="/" class="internal_link link-active">Главная</a>
+            <a href="privacy" class="internal_link">Privacy Policy</a>
+           <a href="https://github.com/CybDevTeam/website-src" target="_blank">GitHub репозиторий</a>
+           <!--div class="social-icons-container right"> <!-- иконки соцсетей (не используются)
+            <ol class="social-icons">
+                <li><a href="https://telegram.dog/trv_official1"><i class="fa-brands fa-telegram social-icon"></i></a></li>
+                <li><a href="https://4pda.to/forum/index.php?showuser=10840063"><i class="fa-solid fa-4 social-icon"></i></a></li>
+                <li><a href="https://github.com/4vanyek"><i class="fa-brands fa-github social-icon"></i></a></li>
+                <li><a href="https://youtube.com/@therealvanyek8175"><i class="fa-brands fa-youtube social-icon"></i></a></li>
+            </ol>
+        </div-->
+         </div>
+       </ul>
+     </nav>
     <div class="tcent" style="margin: 10px;">
         <h2 style="margin: 10px;">Общие проекты:</h2>
         <button onclick="location.href='https://github.com/CybDevTeam/website-src'">CybDevTeam / website-src</button>
