@@ -23,6 +23,9 @@
     padding: 1em;
     color: #fff;
     background: #111;
+    z-index: 99;
+    position: sticky;
+    top: 0;
   }
   
   .internal_link::after {
@@ -106,14 +109,15 @@
    .menu {
       display:none;
       position: absolute;
-      background-color:#333;
+      background-color:#111;
       right: 0;
       left: 0;
-      /*top: 70px;*/
+      top: 100%;
       align-items: normal;
       text-align: center;
       padding: 1em;
       font-size: 18px;
+      z-index: 99;
     }
     .menu a {
       margin: 5px;
